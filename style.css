@@ -1,0 +1,43 @@
+:root { --orange: #f2731a; --blue: #1a59d9; }
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 24px; background: #fff; color: #222;
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+#grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  max-width: 960px; margin: 0 auto;
+}
+.card {
+  position: relative; aspect-ratio: 1; padding: 11%;
+  border: 0; background: none; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.card img {
+  width: 100%; height: 100%; object-fit: contain; display: block;
+  transition: transform .2s ease;
+}
+.card:hover img, .card:focus-visible img { transform: scale(1.03); }
+.card:focus-visible { outline: 0; }
+.card svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+.card path {
+  fill: none; stroke: var(--c); stroke-width: 1.6; stroke-linecap: round;
+  stroke-linejoin: round; opacity: .9; vector-effect: non-scaling-stroke;
+}
+dialog {
+  width: min(300px, calc(100vw - 48px)); padding: 20px 22px;
+  border: 0; border-radius: 12px; background: #fff; color: inherit;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .1);
+}
+dialog[open] { animation: pop .16s ease-out; }
+dialog::backdrop { background: rgba(255, 255, 255, .6); }
+dialog p { margin: 0 0 14px; }
+dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 16px; margin: 0; }
+dt { color: #999; }
+dd { margin: 0; }
+@keyframes pop { from { opacity: 0; transform: translateY(6px); } }
+@media (max-width: 520px) {
+  body { padding: 14px; }
+  #grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }

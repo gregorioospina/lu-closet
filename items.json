@@ -1,0 +1,104 @@
+[
+  {
+    "image": "img/black-flare-pants-folded.png",
+    "description": "Black high-waist flare pants",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/green-ribbed-cardigan.png",
+    "description": "Dark green ribbed button-front cardigan, new with tags",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/navy-ruched-flare-leggings.png",
+    "description": "Navy flare leggings with ruched waistband",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/black-long-sleeve-top.png",
+    "description": "Black long-sleeve crew-neck top",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/navy-cable-cardigan.png",
+    "description": "Navy cable-knit cardigan with pearl buttons",
+    "size": "L",
+    "price": ""
+  },
+  {
+    "image": "img/camel-knit-polo.png",
+    "description": "Camel long-sleeve knit polo, new with tags",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/blue-roll-neck-sweater.png",
+    "description": "Blue roll-neck knit sweater",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/burgundy-knit-vest.png",
+    "description": "Burgundy sleeveless roll-neck knit top",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/navy-striped-sweater.png",
+    "description": "Navy, cream and light-blue striped crew-neck sweater",
+    "size": "XS",
+    "price": ""
+  },
+  {
+    "image": "img/charcoal-striped-cardigan.png",
+    "description": "Charcoal and white striped knit cardigan, new with tags",
+    "size": "M",
+    "price": ""
+  },
+  {
+    "image": "img/pink-cable-sweater.png",
+    "description": "Pale pink cable-knit crew-neck sweater",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/taupe-cable-sweater.png",
+    "description": "Taupe cable-knit crew-neck sweater",
+    "size": "M",
+    "price": ""
+  },
+  {
+    "image": "img/white-ribbed-crop-tank.png",
+    "description": "White ribbed racerback crop tank",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/black-flare-pants.png",
+    "description": "Black high-waist flare pants, new with tags",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/grey-cable-sweater.png",
+    "description": "Grey crew-neck sweater with cable front",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/rust-mock-neck-sweater.png",
+    "description": "Rust mock-neck knit sweater",
+    "size": "",
+    "price": ""
+  },
+  {
+    "image": "img/teal-flare-leggings.png",
+    "description": "Dark teal flare leggings",
+    "size": "",
+    "price": ""
+  }
+]
