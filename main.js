@@ -13,6 +13,8 @@ const framePath = (seed) => {
 
 const grid = document.getElementById('grid');
 const dialog = document.getElementById('info');
+const PHONE = '573183309699'; // WhatsApp number, digits only
+const chat = document.getElementById('d-chat');
 const field = (id, value) => {
   document.getElementById(id).textContent = value || '—';
 };
@@ -42,6 +44,9 @@ items.forEach((item, i) => {
     field('d-desc', item.description);
     field('d-size', item.size);
     field('d-price', item.price);
+    const msg = `Hola Lu, me interesa esta prenda: ${item.description}` +
+      (item.size ? ` (talla ${item.size})` : '') + (item.price ? ` - ${item.price}` : '');
+    chat.href = `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
     dialog.showModal();
   });
   grid.append(card);
