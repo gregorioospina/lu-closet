@@ -1,194 +1,226 @@
 [
-  {
-    "image": "img/black-flare-pants-folded.png",
-    "description": "Pantalón negro acampanado de tiro alto",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/green-ribbed-cardigan.png",
-    "description": "Cárdigan verde oscuro acanalado con botones, nuevo con etiqueta",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/navy-ruched-flare-leggings.png",
-    "description": "Leggings azul oscuro acampanados con pretina drapeada",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/black-long-sleeve-top.png",
-    "description": "Camiseta negra manga larga cuello redondo",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/navy-cable-cardigan.png",
-    "description": "Cárdigan azul oscuro de ochos con botones de perla",
-    "size": "L",
-    "price": ""
-  },
-  {
-    "image": "img/camel-knit-polo.png",
-    "description": "Polo tejido camel manga larga, nuevo con etiqueta",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/blue-roll-neck-sweater.png",
-    "description": "Suéter azul tejido de cuello enrollado",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/burgundy-knit-vest.png",
-    "description": "Top tejido vinotinto sin mangas de cuello enrollado",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/navy-striped-sweater.png",
-    "description": "Suéter de rayas azul oscuro, crema y azul claro",
-    "size": "XS",
-    "price": ""
-  },
-  {
-    "image": "img/charcoal-striped-cardigan.png",
-    "description": "Cárdigan tejido de rayas gris oscuro y blanco, nuevo con etiqueta",
-    "size": "M",
-    "price": ""
-  },
-  {
-    "image": "img/pink-cable-sweater.png",
-    "description": "Suéter rosado pálido de ochos cuello redondo",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/taupe-cable-sweater.png",
-    "description": "Suéter taupe de ochos cuello redondo",
-    "size": "M",
-    "price": ""
-  },
-  {
-    "image": "img/white-ribbed-crop-tank.png",
-    "description": "Top corto blanco acanalado espalda deportiva",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/black-flare-pants.png",
-    "description": "Pantalón negro acampanado de tiro alto, nuevo con etiqueta",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/grey-cable-sweater.png",
-    "description": "Suéter gris cuello redondo con ochos al frente",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/rust-mock-neck-sweater.png",
-    "description": "Suéter tejido terracota de cuello alto",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/teal-flare-leggings.png",
-    "description": "Leggings verde azulado oscuro acampanados",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/blue-v-neck-sweater.png",
-    "description": "Suéter azul rey cuello en V, nuevo con etiqueta",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/brown-cable-cardigan.png",
-    "description": "Cárdigan café de ochos con botones",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/grey-waffle-sweater.png",
-    "description": "Suéter gris claro tejido tipo waffle",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/floral-fuzzy-socks.png",
-    "description": "Medias peludas de flores lila, nuevas con etiqueta",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/heart-fuzzy-socks.png",
-    "description": "Medias peludas rosadas de corazones, paquete de 4 pares, nuevas",
-    "size": "Calzado 4-10 (US)",
-    "price": ""
-  },
-  {
-    "image": "img/black-biker-shorts.png",
-    "description": "Biker shorts negros de tiro alto con bolsillos",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/brown-biker-shorts.png",
-    "description": "Biker shorts cafés de tiro alto con bolsillos",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/burgundy-biker-shorts.png",
-    "description": "Biker shorts vinotinto de tiro alto con bolsillos, nuevos con etiqueta",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/black-ribbed-tank.png",
-    "description": "Camiseta negra acanalada sin mangas",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/olive-ribbed-tank.png",
-    "description": "Camiseta verde oliva acanalada sin mangas",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/slate-ribbed-tank.png",
-    "description": "Camiseta azul grisáceo acanalada sin mangas",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/cream-ribbed-tank.png",
-    "description": "Camiseta crema acanalada sin mangas",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/brown-flare-leggings.png",
-    "description": "Leggings cafés acampanados de tiro alto, nuevos con etiqueta",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/printed-scarves.png",
-    "description": "Pañoletas estampadas: flores café, flores vinotinto y animal print",
-    "size": "",
-    "price": ""
-  },
-  {
-    "image": "img/green-knit-cardigan.png",
-    "description": "Cárdigan verde oscuro tejido con botones",
-    "size": "XL",
-    "price": ""
-  }
+	{
+		"image": "img/black-flare-pants-folded.webp",
+		"description": "Pantalón negro acampanado de tiro alto",
+		"size": "L",
+		"price": "3,000",
+		"thumb": "hPeBBQApqWiPholYZ3ygfginBil4jHJZRw=="
+	},
+	{
+		"image": "img/green-ribbed-cardigan.webp",
+		"description": "Cárdigan verde oscuro acanalado con botones, nuevo con etiqueta",
+		"size": "",
+		"price": "",
+		"thumb": "jNeBBIA6bJZ/hFdYiCj5VZd/cIaIKGh1Bw=="
+	},
+	{
+		"image": "img/navy-ruched-flare-leggings.webp",
+		"description": "Leggings azul oscuro acampanados con pretina drapeada",
+		"size": "",
+		"price": "",
+		"thumb": "ieaBAgA6h3YKmXiSr1n2OQM2ZoWIeWg="
+	},
+	{
+		"image": "img/black-long-sleeve-top.webp",
+		"description": "Camiseta negra manga larga cuello redondo",
+		"size": "",
+		"price": "",
+		"thumb": "h+eBBYAqb3d/hVhWlvCDCmiFA2iKd2BmVg=="
+	},
+	{
+		"image": "img/navy-cable-cardigan.webp",
+		"description": "Cárdigan azul oscuro de ochos con botones de perla",
+		"size": "L",
+		"price": "",
+		"thumb": "jPeBA4A5DNVod1vqn7T4SQqGd4eCdng="
+	},
+	{
+		"image": "img/camel-knit-polo.webp",
+		"description": "Polo tejido camel manga larga, nuevo con etiqueta",
+		"size": "",
+		"price": "",
+		"thumb": "JCmGBIA7X6ZXiFiIuc4K7q2QckZ3B2h3BA=="
+	},
+	{
+		"image": "img/blue-roll-neck-sweater.webp",
+		"description": "Suéter azul tejido de cuello enrollado",
+		"size": "",
+		"price": "",
+		"thumb": "1XSBBIArDulZp2LZeWr7eMNfkGVlFniGAw=="
+	},
+	{
+		"image": "img/burgundy-knit-vest.webp",
+		"description": "Top tejido vinotinto sin mangas de cuello enrollado",
+		"size": "",
+		"price": "",
+		"thumb": "CEiCBAAsWvZnV4h41vUWPG+CgQRIN3eIBg=="
+	},
+	{
+		"image": "img/navy-striped-sweater.webp",
+		"description": "Suéter de rayas azul oscuro, crema y azul claro",
+		"size": "XS",
+		"price": "",
+		"thumb": "1/eFBIA6iHqNd2CLmNwJ+WajYHWHOGh2Bg=="
+	},
+	{
+		"image": "img/charcoal-striped-cardigan.webp",
+		"description": "Cárdigan tejido de rayas gris oscuro y blanco, nuevo con etiqueta",
+		"size": "M",
+		"price": "",
+		"thumb": "EQiGA4AqqYePhXK/m8eAtwlHeYiAZlc="
+	},
+	{
+		"image": "img/pink-cable-sweater.webp",
+		"description": "Suéter rosado pálido de ochos cuello redondo",
+		"size": "",
+		"price": "",
+		"thumb": "qBiCBIArH7GuQpV79rVXr2NhkIWHFmeWBQ=="
+	},
+	{
+		"image": "img/taupe-cable-sweater.webp",
+		"description": "Suéter taupe de ochos cuello redondo",
+		"size": "M",
+		"price": "",
+		"thumb": "XwiCBIA6fHXPRXlo9vlqr4mEcJSIN2iFBg=="
+	},
+	{
+		"image": "img/white-ribbed-crop-tank.webp",
+		"description": "Top corto blanco acanalado espalda deportiva",
+		"size": "",
+		"price": "",
+		"thumb": "cwiCBQA6fEZ1WXBJh19buJj2V1eAh4OIiA=="
+	},
+	{
+		"image": "img/black-flare-pants.webp",
+		"description": "Pantalón negro acampanado de tiro alto, nuevo con etiqueta",
+		"size": "",
+		"price": "",
+		"thumb": "x/eBBAAntV+VanuKOvNLM8+EcmAHZ5h3BQ=="
+	},
+	{
+		"image": "img/grey-cable-sweater.webp",
+		"description": "Suéter gris cuello redondo con ochos al frente",
+		"size": "",
+		"price": "",
+		"thumb": "3feBBIAriMlvdKF5+niWn1Z8gFR2B2iGBA=="
+	},
+	{
+		"image": "img/rust-mock-neck-sweater.webp",
+		"description": "Suéter tejido terracota de cuello alto",
+		"size": "",
+		"price": "",
+		"thumb": "U6mCBIAqL7ZdhWB7+nMGLGhggVZmB2iIBA=="
+	},
+	{
+		"image": "img/teal-flare-leggings.webp",
+		"description": "Leggings verde azulado oscuro acampanados",
+		"size": "",
+		"price": "",
+		"thumb": "C8eBAwA5i2UJh3hTn1n1eQYodYR4eGg="
+	},
+	{
+		"image": "img/blue-v-neck-sweater.webp",
+		"description": "Suéter azul rey cuello en V, nuevo con etiqueta",
+		"size": "",
+		"price": "",
+		"thumb": "krSBBIAqn3GeRGRXN0f3ZIZvYJWIGWhmBQ=="
+	},
+	{
+		"image": "img/brown-cable-cardigan.webp",
+		"description": "Cárdigan café de ochos con botones",
+		"size": "",
+		"price": "",
+		"thumb": "TTiCBIArvzRolUXV+nk4P5yRgIOFF2iWBQ=="
+	},
+	{
+		"image": "img/grey-waffle-sweater.webp",
+		"description": "Suéter gris claro tejido tipo waffle",
+		"size": "",
+		"price": "",
+		"thumb": "qBiCA4Arj5d8d1mPlfZpiQdIeohhZlg="
+	},
+	{
+		"image": "img/floral-fuzzy-socks.webp",
+		"description": "Medias peludas de flores lila, nuevas con etiqueta",
+		"size": "",
+		"price": "",
+		"thumb": "8QeCCwA4j4Ntg6lpWKD3dQh2xlZViWc="
+	},
+	{
+		"image": "img/heart-fuzzy-socks.webp",
+		"description": "Medias peludas rosadas de corazones, paquete de 4 pares, nuevas",
+		"size": "Calzado 4-10 (US)",
+		"price": "",
+		"thumb": "dRiGAgA4H0s8mIepjxL6iwh2tldWmHc="
+	},
+	{
+		"image": "img/black-biker-shorts.webp",
+		"description": "Biker shorts negros de tiro alto con bolsillos",
+		"size": "",
+		"price": "",
+		"thumb": "SPeBBQAseEZvl3GYaI5Cjzj3CCh1hYWHVw=="
+	},
+	{
+		"image": "img/brown-biker-shorts.webp",
+		"description": "Biker shorts cafés de tiro alto con bolsillos",
+		"size": "",
+		"price": "",
+		"thumb": "UhiCBYAdnFV/hmR3eG9X96VWCBh1hYOHRw=="
+	},
+	{
+		"image": "img/burgundy-biker-shorts.webp",
+		"description": "Biker shorts vinotinto de tiro alto con bolsillos, nuevos con etiqueta",
+		"size": "",
+		"price": "",
+		"thumb": "EFiCBYAstKNPTFRrSE+C1GQKBxd1ZnSIOA=="
+	},
+	{
+		"image": "img/black-ribbed-tank.webp",
+		"description": "Camiseta negra acanalada sin mangas",
+		"size": "",
+		"price": "",
+		"thumb": "h/eBBAArh/dXKHiJxlf1n0iMcDRYR3h3Bw=="
+	},
+	{
+		"image": "img/olive-ribbed-tank.webp",
+		"description": "Camiseta verde oliva acanalada sin mangas",
+		"size": "",
+		"price": "",
+		"thumb": "YPiBBAA7VfhoKIiI+ESyjGGfgDRYV3h3Bw=="
+	},
+	{
+		"image": "img/slate-ribbed-tank.webp",
+		"description": "Camiseta azul grisáceo acanalada sin mangas",
+		"size": "",
+		"price": "",
+		"thumb": "WOeBBAAsWPaHGIiL5hn0rUCNgDRYV3d3Bw=="
+	},
+	{
+		"image": "img/cream-ribbed-tank.webp",
+		"description": "Camiseta crema acanalada sin mangas",
+		"size": "",
+		"price": "",
+		"thumb": "cQiGBAA7afdmOIiI+CJyXjKPgDRYV3eIBg=="
+	},
+	{
+		"image": "img/brown-flare-leggings.webp",
+		"description": "Leggings cafés acampanados de tiro alto, nuevos con etiqueta",
+		"size": "",
+		"price": "",
+		"thumb": "DxiCAwA6VgF5S2pWr1T1OioIhnSHaGc="
+	},
+	{
+		"image": "img/printed-scarves.webp",
+		"description": "Pañoletas estampadas: flores café, flores vinotinto y animal print",
+		"size": "",
+		"price": "",
+		"thumb": "WxiCBIA6SJkyyjDa/JsXX2OVdIWICHh3BQ=="
+	},
+	{
+		"image": "img/green-knit-cardigan.webp",
+		"description": "Cárdigan verde oscuro tejido con botones",
+		"size": "XL",
+		"price": "",
+		"thumb": "z+eBA4AsT4WLhmefieQOVgY3eHhiZVg="
+	}
 ]

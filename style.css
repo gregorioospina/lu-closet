@@ -20,10 +20,13 @@ h1 {
   -webkit-appearance: none; appearance: none;
   -webkit-tap-highlight-color: transparent;
 }
-.card img {
-  position: absolute; inset: 11%; width: 78%; height: 78%;
-  object-fit: contain; transition: transform .2s ease;
+.card img, .card canvas {
+  position: absolute; inset: 11%; width: 78%; height: 78%; object-fit: contain;
 }
+.card img { opacity: 0; transition: opacity .35s ease, transform .2s ease; }
+.card img.ready { opacity: 1; }
+.card canvas { filter: blur(6px); transition: opacity .35s ease; pointer-events: none; }
+.card canvas.gone { opacity: 0; }
 .card:hover img, .card:focus-visible img { transform: scale(1.03); }
 .card:focus-visible { outline: 0; }
 .card svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
