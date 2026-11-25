@@ -17,10 +17,12 @@ for the site itself.
 Everything shown comes from `items.json`:
 
 ```json
-{ "image": "img/blue-roll-neck-sweater.webp", "description": "…", "size": "M", "price": "$80.000" }
+{ "image": "img/blue-roll-neck-sweater.webp", "description": "…", "size": "M", "price": "153", "category": "Sacos", "sold": false }
 ```
 
-Empty `size` and `price` fields are simply not shown.
+Empty `size`, `price` and `category` fields are simply not shown. An item
+with `"sold": true` is greyed out and shows "Vendido" instead of the
+WhatsApp link.
 
 To add an item: put a PNG with a transparent background in `img/`, add an
 entry pointing at it, then run

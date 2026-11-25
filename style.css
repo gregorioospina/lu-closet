@@ -29,6 +29,14 @@ h1 {
   stroke-linejoin: round; vector-effect: non-scaling-stroke;
 }
 
+.info .category {
+  display: block; margin-bottom: 4px; color: #999;
+  font-size: .78em; letter-spacing: .08em; text-transform: uppercase;
+}
+.info .sold-tag { color: #999; font-weight: 500; }
+.sold .frame img, .sold .frame svg { opacity: .35; }
+.sold .frame img.ready { opacity: .35; }
+.sold .info p, .sold .info dl { color: #999; }
 .info p { margin: 0 0 10px; font-weight: 500; line-height: 1.35; }
 .info dl { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; margin: 0 0 12px; }
 .info dt { color: #999; }

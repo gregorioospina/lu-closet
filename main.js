@@ -79,7 +79,9 @@ items.forEach((item, i) => {
   box.prepend(img);
   if (blur) box.prepend(blur);
 
+  if (item.sold) row.classList.add('sold');
   const info = el('div', 'info');
+  if (item.category) info.append(el('span', 'category', item.category));
   info.append(el('p', '', item.description));
   const dl = el('dl');
   if (item.size) dl.append(el('dt', '', 'Talla'), el('dd', '', item.size));
@@ -87,11 +89,15 @@ items.forEach((item, i) => {
   if (dl.children.length) info.append(dl);
   const msg = `Hola Lu, me interesa esta prenda: ${item.description}` +
     (item.size ? ` (talla ${item.size})` : '') + (item.price ? ` - ${item.price}` : '');
-  const chat = el('a', '', 'Habla conmigo');
-  chat.href = `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
-  chat.target = '_blank';
-  chat.rel = 'noopener';
-  info.append(chat);
+  if (item.sold) {
+    info.append(el('span', 'sold-tag', 'Vendido'));
+  } else {
+    const chat = el('a', '', 'Habla conmigo');
+    chat.href = `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
+    chat.target = '_blank';
+    chat.rel = 'noopener';
+    info.append(chat);
+  }
 
   row.append(box, info);
   list.append(row);
