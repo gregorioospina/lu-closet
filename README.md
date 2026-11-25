@@ -19,10 +19,11 @@ for the site itself.
 Everything shown comes from `items.json`:
 
 ```json
-{ "image": "img/blue-roll-neck-sweater.webp", "description": "…", "size": "M", "price": "153", "category": "Sacos", "sold": false }
+{ "image": "img/blue-roll-neck-sweater.webp", "description": "…", "size": "M", "price": "153", "category": "Sacos", "brand": "Nautica", "sold": false }
 ```
 
-Empty `size`, `price` and `category` fields are simply not shown. An item
+Empty `size`, `price`, `category` and `brand` fields are simply not shown.
+The category buttons at the top are built from the categories in this file. An item
 with `"sold": true` is greyed out and shows "Vendido" instead of the
 WhatsApp link.
 

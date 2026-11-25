@@ -57,6 +57,7 @@ items.forEach((item, i) => {
   if (recentColors.length > 3) recentColors.shift();
 
   const row = el('article', 'item');
+  row.dataset.category = item.category || '';
   row.style.setProperty('--c', COLORS[color]);
 
   const box = el('div', 'frame');
@@ -85,6 +86,7 @@ items.forEach((item, i) => {
   const info = el('div', 'info');
   if (item.category) info.append(el('span', 'category', item.category));
   info.append(el('p', '', item.description));
+  if (item.brand) info.append(el('span', 'brand', item.brand));
   const dl = el('dl');
   if (item.size) dl.append(el('dt', '', 'Talla'), el('dd', '', item.size));
   if (item.price) dl.append(el('dt', '', 'Precio'), el('dd', '', item.price));
@@ -104,3 +106,23 @@ items.forEach((item, i) => {
   row.append(box, info);
   list.append(row);
 });
+
+// Category filter: one text button per category, in order of first appearance.
+const filters = document.getElementById('filters');
+const categories = [...new Set(items.map((item) => item.category).filter(Boolean))];
+const select = (category) => {
+  for (const button of filters.children) {
+    button.setAttribute('aria-pressed', String(button.dataset.category === category));
+  }
+  for (const row of list.children) {
+    row.hidden = category !== '' && row.dataset.category !== category;
+  }
+};
+['', ...categories].forEach((category) => {
+  const button = el('button', '', category || 'Todo');
+  button.type = 'button';
+  button.dataset.category = category;
+  button.addEventListener('click', () => select(category));
+  filters.append(button);
+});
+select('');
