@@ -1,6 +1,6 @@
 # lu-wardrobe
 
-A minimal static page ("Closet de Lu") that lists transparent product photos.
+A minimal static page ("El Closet de Lu y Maria C") that lists transparent product photos.
 Each item is a hand-drawn frame with the photo (5/9 of the width) followed by
 its description, size, price and a "Lo quiero" link that opens WhatsApp
 with a message naming the item (the number is `PHONE` in `main.js`). Phones
