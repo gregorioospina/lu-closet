@@ -1,6 +1,6 @@
 // The frames and the blurred placeholders are generated in WebAssembly
 // (src/frame.c). This file loads the module and builds the page.
-const PHONE = '573183309699'; // WhatsApp number, digits only
+const PHONE = '573183535839'; // WhatsApp number, digits only
 const COLORS = ['#f2731a', '#1a59d9', '#8fb0de', '#d2604f', '#2f2f2a', '#e3a72f', '#4f9a78', '#e58fb1'];
 
 const [{ instance }, items] = await Promise.all([
