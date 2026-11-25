@@ -94,7 +94,7 @@ items.forEach((item, i) => {
   if (item.sold) {
     info.append(el('span', 'sold-tag', 'Vendido'));
   } else {
-    const chat = el('a', '', 'Habla conmigo');
+    const chat = el('a', '', 'Lo quiero');
     chat.href = `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
     chat.target = '_blank';
     chat.rel = 'noopener';

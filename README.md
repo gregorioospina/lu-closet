@@ -2,7 +2,7 @@
 
 A minimal static page ("Closet de Lu") that lists transparent product photos.
 Each item is a hand-drawn frame with the photo (5/9 of the width) followed by
-its description, size, price and a "Habla conmigo" link that opens WhatsApp
+its description, size, price and a "Lo quiero" link that opens WhatsApp
 with a message naming the item (the number is `PHONE` in `main.js`). Phones
 show one item per row; screens 900 px and wider show two, and the photos grow
 with the screen.
