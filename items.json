@@ -286,5 +286,68 @@
 		"category": "Básicos",
 		"sold": false,
 		"thumb": "z+eBA4AsT4WLhmefieQOVgY3eHhiZVg="
+	},
+	{
+		"image": "img/white-ribbed-tee.webp",
+		"description": "Camiseta blanca acanalada manga corta",
+		"size": "",
+		"price": "",
+		"category": "Básicos",
+		"sold": false,
+		"thumb": "shiCBQA7eoePd4V5Vx+NxUr0BkeHiHdoRw=="
+	},
+	{
+		"image": "img/white-v-neck-cardigan.webp",
+		"description": "Cárdigan blanco cuello en V con botones, falda trenzada",
+		"size": "L",
+		"price": "",
+		"category": "Sacos",
+		"sold": false,
+		"thumb": "cQiCBIA7H1NGu6m6tvtIq49lgHWHSGd2BQ=="
+	},
+	{
+		"image": "img/striped-fuzzy-socks.webp",
+		"description": "Medias peludas de rayas rosadas y vinotinto, paquete de 3 pares, nuevas",
+		"size": "Calzado 4-10 (US)",
+		"price": "",
+		"category": "Medias",
+		"sold": false,
+		"thumb": "LBiGAwAnhV9lVluqoLkFWjNqBrm1mmg="
+	},
+	{
+		"image": "img/green-long-open-cardigan.webp",
+		"description": "Cárdigan largo verde oscuro abierto",
+		"size": "",
+		"price": "",
+		"category": "Sacos",
+		"sold": false,
+		"thumb": "0OeBDAArBzjXR3t7tfdXnG9VYHSISXhkBA=="
+	},
+	{
+		"image": "img/navy-zip-knit-jacket.webp",
+		"description": "Chaqueta tejida azul oscuro con cremallera, cuello alto y puños de rayas",
+		"size": "",
+		"price": "",
+		"category": "Sacos",
+		"sold": false,
+		"thumb": "S+eBBIArzydRhFyqu29W/2lwgUVnB1eIBQ=="
+	},
+	{
+		"image": "img/navy-cable-crew-sweater.webp",
+		"description": "Suéter azul oscuro cuello redondo trenzado, nuevo con etiqueta",
+		"size": "M",
+		"price": "",
+		"category": "Sacos",
+		"sold": false,
+		"thumb": "CeeBBIArj6lYh1e3l/hJWp9ToHZ2NmeHBg=="
+	},
+	{
+		"image": "img/aqua-pointelle-cardigan.webp",
+		"description": "Cárdigan verde agua calado con botones",
+		"size": "S",
+		"price": "",
+		"category": "Sacos",
+		"sold": false,
+		"thumb": "W7eFC4Irj6d7hUZglApFqAVreGdhZVg="
 	}
 ]
