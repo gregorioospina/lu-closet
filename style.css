@@ -10,6 +10,18 @@ h1 {
 }
 #list { width: 100%; max-width: 640px; margin: 0 auto; }
 
+/* Desktop: two items per row (frame, info, frame, info); the list widens with
+   the screen, so the photos grow with it. */
+@media (min-width: 900px) {
+  #list {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(24px, 4vw, 72px); max-width: min(92vw, 1800px);
+  }
+  .item { gap: clamp(16px, 1.6vw, 32px); margin-bottom: clamp(20px, 3vw, 48px); }
+  .info { font-size: clamp(15px, 1.05vw, 20px); }
+  .frame path { stroke-width: clamp(2.6px, 0.22vw, 4px); }
+}
+
 /* One item per row: frame (5/9) -> info (4/9). */
 .item {
   display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 4fr);

@@ -39,18 +39,20 @@ const el = (tag, className, content) => {
 };
 
 const list = document.getElementById('list');
-let lastStyle = -1;
+const recentStyles = [];
 const recentColors = [];
 
 items.forEach((item, i) => {
   // Pseudo-random frame style and colour: fixed for each position, and the style
-  // never repeats the item above and the colour never repeats the last three.
+  // never repeats the last two items (so neighbours differ beside and above)
+  // and the colour never repeats the last three.
   const h = pick(i + 1);
   let style = h % styles();
   let color = (h >>> 8) % COLORS.length;
-  if (style === lastStyle) style = (style + 1) % styles();
+  while (recentStyles.includes(style)) style = (style + 1) % styles();
   while (recentColors.includes(color)) color = (color + 1) % COLORS.length;
-  lastStyle = style;
+  recentStyles.push(style);
+  if (recentStyles.length > 2) recentStyles.shift();
   recentColors.push(color);
   if (recentColors.length > 3) recentColors.shift();
 
