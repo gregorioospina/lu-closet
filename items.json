@@ -294,7 +294,7 @@
 		"price": "126",
 		"category": "Básicos",
 		"sold": false,
-		"thumb": "shiCBQA7eoePd4V5Vx+NxUr0BkeHiHdoRw=="
+		"thumb": "shiCBQA7eoePd5V5Vx+OtUv0BkeHiHdoRw=="
 	},
 	{
 		"image": "img/white-v-neck-cardigan.webp",
@@ -303,7 +303,7 @@
 		"price": "150",
 		"category": "Sacos",
 		"sold": true,
-		"thumb": "cQiCBIA7H1NGu6m6tvtIq49lgHWHSGd2BQ=="
+		"thumb": "cQiCBIA7H1NGu6m6tvtIrI9lgHWHSGd2BQ=="
 	},
 	{
 		"image": "img/striped-fuzzy-socks.webp",
@@ -312,7 +312,7 @@
 		"price": "45",
 		"category": "Medias",
 		"sold": false,
-		"thumb": "LBiGAwAnhV9lVluqoLkFWjNqBrm1mmg="
+		"thumb": "bBiGAwAnhV9lVluaoLkFSjNqBrm1mmg="
 	},
 	{
 		"image": "img/green-long-open-cardigan.webp",
@@ -321,7 +321,7 @@
 		"price": "216",
 		"category": "Sacos",
 		"sold": false,
-		"thumb": "0OeBDAArBzjXR3t7tfdXnG9VYHSISXhkBA=="
+		"thumb": "0OeBDAArBzjXR3t7tfdXnG9UYHSISXhkBA=="
 	},
 	{
 		"image": "img/navy-zip-knit-jacket.webp",
@@ -330,7 +330,7 @@
 		"price": "189",
 		"category": "Sacos",
 		"sold": false,
-		"thumb": "S+eBBIArzydRhFyqu29W/2lwgUVnB1eIBQ=="
+		"thumb": "S+eBBIArzydRhFyqu29W/2lxgUVnB1eIBQ=="
 	},
 	{
 		"image": "img/navy-cable-crew-sweater.webp",
@@ -339,7 +339,7 @@
 		"price": "153",
 		"category": "Sacos",
 		"sold": false,
-		"thumb": "CeeBBIArj6lYh1e3l/hJWp9ToHZ2NmeHBg=="
+		"thumb": "CeeBBIArj6lYh1e3l/lJaZ9UoHZ2NmeHBg=="
 	},
 	{
 		"image": "img/aqua-pointelle-cardigan.webp",
@@ -348,6 +348,60 @@
 		"price": "189",
 		"category": "Sacos",
 		"sold": false,
-		"thumb": "W7eFC4Irj6d7hUZglApFqAVreGdhZVg="
+		"thumb": "W7eFC4Irj6d6hUZglQpFuAVreGdhZVg="
+	},
+	{
+		"image": "img/blue-wide-leg-pants.webp",
+		"description": "Pantalón azul de bota ancha con bolsillos, nuevo con etiqueta",
+		"size": "",
+		"price": "",
+		"category": "Pantalones",
+		"sold": false,
+		"thumb": "TdaBBQAogGumiLjYmJ+Kn9b6XyaHY5KJZQ=="
+	},
+	{
+		"image": "img/brown-straight-jeans.webp",
+		"description": "Jean café de tiro bajo y bota recta, nuevo con etiqueta",
+		"size": "5/27",
+		"price": "",
+		"category": "Pantalones",
+		"sold": false,
+		"thumb": "SxiCBAAokCtqp2eNGfVPMO/ThHAYNZhnBQ=="
+	},
+	{
+		"image": "img/cream-grey-fuzzy-socks.webp",
+		"description": "Medias peludas tobilleras crema y gris, 2 pares",
+		"size": "",
+		"price": "",
+		"category": "Medias",
+		"sold": false,
+		"thumb": "LviFBIA5UGqKc9N99Hqov4aLgod7BWdoBw=="
+	},
+	{
+		"image": "img/brown-blue-fuzzy-socks.webp",
+		"description": "Medias peludas tobilleras café y azul, 2 pares",
+		"size": "",
+		"price": "",
+		"category": "Medias",
+		"sold": false,
+		"thumb": "WQiGDII5fZlgfSm2K/h6g6+IcnZ8BXdpBg=="
+	},
+	{
+		"image": "img/grey-knit-socks.webp",
+		"description": "Medias tejidas grises con puntera y talón crema",
+		"size": "",
+		"price": "",
+		"category": "Medias",
+		"sold": false,
+		"thumb": "HfiFAwA57KuUUPb8qrqvuQRqhZdTh4g="
+	},
+	{
+		"image": "img/cream-fuzzy-socks.webp",
+		"description": "Medias peludas tobilleras crema",
+		"size": "",
+		"price": "",
+		"category": "Medias",
+		"sold": false,
+		"thumb": "cviFBIAoBzZnSIWbiI95+pl5g4Z/FahHBg=="
 	}
 ]
