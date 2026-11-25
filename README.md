@@ -22,6 +22,7 @@ Everything shown comes from `items.json`:
 { "image": "img/blue-roll-neck-sweater.webp", "description": "…", "size": "M", "price": "153", "category": "Sacos", "brand": "Nautica", "sold": false }
 ```
 
+`price` is in thousands of pesos: `"153"` is shown as "153.000 COP".
 Empty `size`, `price`, `category` and `brand` fields are simply not shown.
 The category buttons at the top are built from the categories in this file. An item
 with `"sold": true` is greyed out and shows "Vendido" instead of the

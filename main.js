@@ -31,6 +31,11 @@ const placeholder = (b64) => {
   return canvas;
 };
 
+// Prices are stored in thousands of pesos ("126", "108 c/u") and shown as
+// "126.000 COP", "108.000 COP c/u".
+const formatPrice = (price) =>
+  String(price).replace(/\d+/, (n) => `${(Number(n) * 1000).toLocaleString('es-CO')} COP`);
+
 const el = (tag, className, content) => {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -89,10 +94,10 @@ items.forEach((item, i) => {
   if (item.brand) info.append(el('span', 'brand', item.brand));
   const dl = el('dl');
   if (item.size) dl.append(el('dt', '', 'Talla'), el('dd', '', item.size));
-  if (item.price) dl.append(el('dt', '', 'Precio'), el('dd', '', item.price));
+  if (item.price) dl.append(el('dt', '', 'Precio'), el('dd', '', formatPrice(item.price)));
   if (dl.children.length) info.append(dl);
   const msg = `Hola Lu, me interesa esta prenda: ${item.description}` +
-    (item.size ? ` (talla ${item.size})` : '') + (item.price ? ` - ${item.price}` : '');
+    (item.size ? ` (talla ${item.size})` : '') + (item.price ? ` - ${formatPrice(item.price)}` : '');
   if (item.sold) {
     info.append(el('span', 'sold-tag', 'Vendido'));
   } else {
